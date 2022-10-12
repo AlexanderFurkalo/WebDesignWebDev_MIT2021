@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Store Site: Tactical Boots</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <a> Тактичне Взуття </a>
+        <nav class="menu">
+            <a href="index.html"> Інформація </a>
+            <a href="store.html"> Наш Магазин </a>
+            <a href="about.html"> Про компанію </a>
+        </nav>
+        <nav class="menu">
+            <a href="#first"> Перший ряд </a>
+            <a href="#second"> Другий ряд </a>
+            <a href="#third"> Кошик </a>
+        </nav>
+
+    </header>
+
+    <section class="shop-row" id="first">
+        <div class="box">
+            <div class="square">
+                    <span class="name"> Черевики 1 </span>
+                    <img class="store-image" src="images/BStore1.jpg">
+                    <div class="details">
+                        <span class="price">3600 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+            <div class="square">
+                    <span class="name"> Черевики 2 </span>
+                    <img class="store-image" src="images/BStore2.jpg">
+                    <div class="details">
+                        <span class="price">2478 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+            <div class="square">
+                    <span class="name"> Черевики 3 </span>
+                    <img class="store-image" src="images/BStore3.jpg">
+                    <div class="details">
+                        <span class="price">2550 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+            <div class="square">
+                    <span class="name"> Черевики 4 </span>
+                    <img class="store-image" src="images/BStore4.jpg">
+                    <div class="details">
+                        <span class="price">3900 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-row" id="second">
+        <div class="box">
+            <div class="square">
+                    <span class="name"> Берці 1 </span>
+                    <img class="store-image" src="images/BStore5.jpg">
+                    <div class="details">
+                        <span class="price">2450 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+            <div class="square">
+                    <span class="name"> Черевики 5 </span>
+                    <img class="store-image" src="images/BStore6.jpg">
+                    <div class="details">
+                        <span class="price">4800 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+            <div class="square">
+                    <span class="name"> Черевики 6 </span>
+                    <img class="store-image" src="images/BStore7.jpg">
+                    <div class="details">
+                        <span class="price">3400 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+            <div class="square">
+                    <span class="name"> Берці 2 </span>
+                    <img class="store-image" src="images/BStore8.jpg">
+                    <div class="details">
+                        <span class="price">2000 ₴</span>
+                        <button class="btn btn-add shop-button" type="button"> Додати до кошика </button>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="basket" id="third">
+
+        <h2 class="basket-name"> Кошик </h2>
+
+        <div class="basket-row">
+            <span class="basket-item basket-header basket-column"> Товар </span>
+            <span class="basket-price basket-header basket-column"> Ціна </span>
+            <span class="basket-quantity basket-header basket-column"> Кількість </span>
+        </div>
+
+        <div class="basket-items">
+        </div>
+
+        <div class="basket-total">
+            <strong class="basket-total-title"> Усього </strong>
+            <span class="basket-total-price"> 0₴ </span>
+        </div>
+
+        <button class="btn btn-add btn-purchase" type="button"> Купити </button>
+
+    </section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>

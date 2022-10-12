@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> About Page...?</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <a> Тактичне Взуття </a>
+        <nav class="menu">
+            <a href="index.html"> Інформація </a>
+            <a href="store.html"> Наш Магазин </a>
+            <a href="about.html"> Про компанію </a>
+        </nav>
+
+    </header>
+
+    <section class="info">
+        <div class="box" id="home">
+
+            <div class="square">
+                <h3> Вступ </h3>
+                <p> Поки що тут немає нічого про нашу компанію. Сайт був зроблений студентом Олександром Фуркало.
+                    Використані ресурси:
+                    <a href="https://www.thesoldiersproject.org/what-are-tactical-boots/">
+                        https://www.thesoldiersproject.org/what-are-tactical-boots/ </a>,
+                    <a href="https://militarka.com.ua/ua/obuv/tacticheskaya-obuv.html">
+                        https://militarka.com.ua/ua/obuv/tacticheskaya-obuv.html </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="clinfo">
+        <div class="box" id="clients">
+            <div class="square">
+                <h3> Відгуки деяких наших клієнтів: </h3>
+                <div class="clients">
+
+                </div>
+                <h3> Це місце зарезервовано під ваш щасливий відгук! </h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="box">
+            <div class="square">
+                <h3> Погода </h3>
+                <div class="horizontalweatherForecast" data-key="KKZ5W8VVDFKQ8EMDQ9X7MER9B" data-location="Ukraine, Kyiv" data-unitGroup="metric"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        WeatherForecastDisplay.attach(".horizontalweatherForecast");
+    </script>
+</body>
