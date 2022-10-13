@@ -135,7 +135,7 @@ async function parse(data) {
 
 var WeatherForecastDisplay=(function() {
 
-    var MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    var MONTHS=["Січ","Лют","Берез","Квіт","Трав","Черв","Лип","Серп","Верес","Жовт","Листоп","Груд"];
  
     function WeatherForecastWidget(selector) {
 

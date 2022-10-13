@@ -10,6 +10,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+         .forecastwidget .icon.snow {background-image:url(images/snow.png);}
+        .forecastwidget .icon.rain {background-image:url(images/rain.png);}
+        .forecastwidget .icon.fog {background-image:url(images/sun.png);}
+        .forecastwidget .icon.wind {background-image:url(images/sun.png);}
+        .forecastwidget .icon.cloudy {background-image:url(images/cloudy.png);}
+        .forecastwidget .icon.partly-cloudy-day {background-image:url(images/partsun.png);}
+        .forecastwidget .icon.partly-cloudy-night {background-image:url(images/partsun.png);}
+        .forecastwidget .icon.clear-day {background-image:url(images/sun.png);}
+        .forecastwidget .icon.clear-night {background-image:url(images/sun.png);}
+  </style>
+    </style>
+
 </head>
 
 <body>
@@ -56,7 +69,7 @@
         <div class="box">
             <div class="square">
                 <h3> Погода </h3>
-                <div class="horizontalweatherForecast" data-key="KKZ5W8VVDFKQ8EMDQ9X7MER9B" data-location="Ukraine, Kyiv" data-unitGroup="metric"></div>
+                <div class="horizontalweatherForecast" data-key="KKZ5W8VVDFKQ8EMDQ9X7MER9B" data-location="Україна, Київ" data-unitGroup="metric"></div>
             </div>
         </div>
     </section>
@@ -64,7 +77,7 @@
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script>
         WeatherForecastDisplay.attach(".horizontalweatherForecast");
     </script>

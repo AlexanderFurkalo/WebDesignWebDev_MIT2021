@@ -442,13 +442,3 @@ img{
     width:40px;
     height:40px;
 }
-
-.forecastwidget .icon.snow {background-image:"./images/snow.png";}
-.forecastwidget .icon.rain {background-image:"./images/rain.png";}
-.forecastwidget .icon.fog {background-image:"./images/sun.png";}
-.forecastwidget .icon.wind {background-image:"./images/sun.png";}
-.forecastwidget .icon.cloudy {background-image:"./images/cloudy.png";}
-.forecastwidget .icon.partly-cloudy-day {background-image:"/images/partsun.png";}
-.forecastwidget .icon.partly-cloudy-night {background-image:"./images/partsun.png";}
-.forecastwidget .icon.clear-day {background-image:"./images/sun.png";}
-.forecastwidget .icon.clear-night {background-image:"./images/sun.png";}
