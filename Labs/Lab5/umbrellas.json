@@ -1,0 +1,22 @@
+{
+    "umbrellas": [
+        {
+            "id": 1,
+            "title": "Title1",
+            "radius": "Radius1",
+            "image": "./images/Umbrella1.JPG"
+        },
+        {
+            "id": 2,
+            "title": "Title2",
+            "radius": "Radius2",
+            "image": "./images/Umbrella2.JPG"
+        },
+        {
+            "id": 3,
+            "title": "Title3",
+            "radius": "Radius3",
+            "image": "./images/Umbrella3.JPG"
+        }
+    ]
+}
