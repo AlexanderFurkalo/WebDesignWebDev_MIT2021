@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cardo&family=Inter&family=Playfair+Display&family=Source+Serif+Pro:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-family: 'Inter', serif;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column;
+    z-index: 100;
+}
+
+header .contacts {
+    background: #D21F1F;
+    height: 4vh;
+    width: 100%;
+}
+
+header .contacts p {
+    display: inline;
+    font-size: 15px;
+    color: #fff;
+    margin-left: 2vw;
+    top: 0;
+}
+
+header .contacts .contIcons {
+    display: inline;
+    margin-left: 39vw;
+}
+
+header .contacts a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .contacts a:hover {
+    color: var(--main-color);
+}
+
+header .menu {
+    display: flex;
+    background: rgba(210, 31, 31, 0.57);
+    height: 13vh;
+    width: 100%;
+}
+
+header .menu img {
+    display: inline-block;
+    width: 55px;
+    height: 80px;
+    margin-left: 2vw;
+}
+
+header .menu .menuNav{
+    margin-left: 2vw;
+}
+
+header .menu a {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    margin: 2vw;
+    height: 2vh;
+}
+
+header .menu a:hover {
+    letter-spacing: .1rem;
+    color: var(--main-color);
+}
